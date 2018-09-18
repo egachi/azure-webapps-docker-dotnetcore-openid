@@ -1,8 +1,6 @@
 FROM microsoft/aspnetcore-build:2.0 AS build-env
 WORKDIR /app
 
-COPY nginx.conf /etc/nginx/nginx.conf
-
 # copy csproj and restore as distinct layers
 COPY *.csproj ./
 RUN dotnet restore
