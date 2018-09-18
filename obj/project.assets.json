@@ -42,20 +42,6 @@
           }
         }
       },
-      "Microsoft.ApplicationInsights/2.4.0": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "System.Diagnostics.DiagnosticSource": "4.4.0",
-          "System.Diagnostics.StackTrace": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard1.3/Microsoft.ApplicationInsights.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.ApplicationInsights.dll": {}
-        }
-      },
       "Microsoft.AspNetCore/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -87,7 +73,6 @@
         "dependencies": {
           "Microsoft.AspNetCore": "2.0.0",
           "Microsoft.AspNetCore.Antiforgery": "2.0.0",
-          "Microsoft.AspNetCore.ApplicationInsights.HostingStartup": "2.0.0",
           "Microsoft.AspNetCore.Authentication": "2.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "2.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "2.0.0",
@@ -246,23 +231,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Antiforgery.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.ApplicationInsights.HostingStartup/2.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Hosting": "2.0.0",
-          "Microsoft.AspNetCore.Razor.Runtime": "2.0.0",
-          "Microsoft.Extensions.Configuration.Json": "2.0.0",
-          "Microsoft.Extensions.DiagnosticAdapter": "2.0.0",
-          "Microsoft.Extensions.Logging": "2.0.0",
-          "Microsoft.Extensions.Logging.Configuration": "2.0.0"
-        },
-        "compile": {
-          "lib/netcoreapp2.0/Microsoft.AspNetCore.ApplicationInsights.HostingStartup.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/Microsoft.AspNetCore.ApplicationInsights.HostingStartup.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authentication/2.0.0": {
@@ -4767,19 +4735,6 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Antiforgery.xml",
         "microsoft.aspnetcore.antiforgery.2.0.0.nupkg.sha512",
         "microsoft.aspnetcore.antiforgery.nuspec"
-      ]
-    },
-    "Microsoft.AspNetCore.ApplicationInsights.HostingStartup/2.0.0": {
-      "sha512": "/DGU1ZwGzIeunCKTq/boHt9qwg5RHa9LEECZmKb5NU3NUEMTjhuHzvSGFYc7ayw5n89b8ZhJTWufHcDyiTt7Vw==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.applicationinsights.hostingstartup/2.0.0",
-      "files": [
-        "lib/net461/Microsoft.AspNetCore.ApplicationInsights.HostingStartup.dll",
-        "lib/net461/Microsoft.AspNetCore.ApplicationInsights.HostingStartup.xml",
-        "lib/netcoreapp2.0/Microsoft.AspNetCore.ApplicationInsights.HostingStartup.dll",
-        "lib/netcoreapp2.0/Microsoft.AspNetCore.ApplicationInsights.HostingStartup.xml",
-        "microsoft.aspnetcore.applicationinsights.hostingstartup.2.0.0.nupkg.sha512",
-        "microsoft.aspnetcore.applicationinsights.hostingstartup.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication/2.0.0": {
